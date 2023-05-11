@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(129, 129, 129);
+    margin-left: 45%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.traffic-light{
+    border: 5px solid black;
+    background-color: rgb(231, 228, 228);
+    padding: 10px 3px;
+    width: 50px;
+    border-radius: 50px;
+}
+.lineOne{
+    height:170px;
+    width:6px;
+    background:#000;
+    margin-left:29px;
+}
+.lineTwo{
+    height:8px;
+    width:68px;
+    background:#000;
+}
+.traffic-light > div{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
